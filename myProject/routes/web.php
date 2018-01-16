@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//Lorsqu'on demande la page test, on reçoit {"success" : true}
 Route::get('/test', function(){
   return '{"success" : true}';
 });
