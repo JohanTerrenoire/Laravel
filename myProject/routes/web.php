@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/test', function(){
   return '{"success" : true}';
 });
+//Lorsqu'on demande la page todos, on reçoit les todos à faire
+Route::get('/todos', function() {
+  return '<ul><li>Do this</li><li>Do that</li></ul>';
+});
