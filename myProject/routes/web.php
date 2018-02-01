@@ -20,5 +20,5 @@ Route::get('/test', function(){
 });
 //Lorsqu'on demande la page todos, on reçoit les todos à faire
 Route::get('/todos', function() {
-  return '<ul><li>Do this</li><li>Do that</li></ul>';
+  return '<ul><li>id : 1 - item : Do this</li><li>id : 2 - item : Do that</li></ul>';
 });
